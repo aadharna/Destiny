@@ -64,7 +64,7 @@ for j in range(50000):
 
     PGCR_url = "http://www.bungie.net/Platform/Destiny/Stats/PostGameCarnageReport/" + match + "/"
 
-    HEADERS = {"X-API-Key": "9a46d60a11174668977a76a28b729dd7"} #my personal Bungie-API key.
+    HEADERS = {"X-API-Key": "PRIVATE PERSONAL API KEY"} #my personal Bungie-API key.
 
     #print("\n\n\nConnecting to Bungie: " + PGCR_url + "\n")
     #print("Fetching data for: PGCR!")
