@@ -1,12 +1,20 @@
 # Destiny
 
-
-Getting PostGameCarnageReports (PGCRs) from Destiny
 ### Step Zero
+To rebuild my dataset from scratch, you will need an API key, and matchIDS. 
+
 In order for this to work, you need to first request an API-Key from Bungie.net
-I have included my own key commented out; however, I would prefer if you did not use that and instead got your own.
 You can do so here: http://destinyapiguide.azurewebsites.net/getKey
+
+MatchIds were given to me by https://destinytrialsreport.com/
+
+With these two things, you will call PostGameCarnageReports (PGCRs) from Destiny
+
 ### First Step -- dependencies and imports
+Libraries used in the totality of this process:
+
+# 0) Python 3.5
+
 1) Pandas (to make use of the DataFrame)
 
 2) requests (to call Bungie's API)
@@ -14,3 +22,19 @@ You can do so here: http://destinyapiguide.azurewebsites.net/getKey
 3) deepcopy (from copy)
 
 4) MatchClass (a custom class to hold the data from each match we call)
+
+5) Numpy 
+
+6) Tensorflow
+
+7) Keras (I used a Tensorflow backend). 
+
+8) SciKit-Learn
+
+9) matplotlib.pyplot
+
+10) Seaborn
+
+11) display from IPython.display (Allows the use of display() for DataFrames)
+
+12) PdfPages from matplotlib.backends.backend_pdf
