@@ -40,3 +40,7 @@ Libraries used in the totality of this process:
 11) display from IPython.display (Allows the use of display() for DataFrames)
 
 12) PdfPages from matplotlib.backends.backend_pdf
+
+----
+
+A copy of my proposal has been added to the Github. Here's the review of said proposal: https://review.udacity.com/#!/reviews/568211
