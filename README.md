@@ -1,5 +1,7 @@
 # Destiny
 
+A copy of the data set I used for this project can be obtained here: https://www.dropbox.com/s/wfrhyy7veba8gw0/indexByMatch_batchUdacity_205_CLEANED_NORM.zip?dl=0
+
 ### Step Zero
 To rebuild my dataset from scratch, you will need an API key, and matchIDS. 
 
