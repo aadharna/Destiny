@@ -15,7 +15,7 @@ With these two things, you will call PostGameCarnageReports (PGCRs) from Destiny
 ### First Step -- dependencies and imports
 Libraries used in the totality of this process:
 
-# 0) Python 3.5
+0) Python 3.5
 
 1) Pandas (to make use of the DataFrame)
 
@@ -41,4 +41,16 @@ Libraries used in the totality of this process:
 
 12) PdfPages from matplotlib.backends.backend_pdf
 
+----
 
+Project pipeline: 
+
+1) Cluster analysis to determine play-style clusters given individualized match data from Destiny (at the moment, the contenders are Expectation Maximation (GMMs) and K-means for the first round of testing).
+2) Since matches are between teams, each team can be looked at a sequence of players. Therefore, using the play-style as a feature of each person, one should be able to learn sequences of different playstyles constitute a good team. (Current thoughts are use an LSTM).
+3) Given an entire match of two teams, predict which team will win. 
+
+Therefore, the scale starts at the individual, progresses to the team level, and then to the match level.
+
+----
+This repo is part 3 of that pipeline. 
+Parts 1 and 2 are being worked on currently. 
